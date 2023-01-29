@@ -3,7 +3,7 @@ import Issues from '../Issues/Issues'
 
 const IssuesContainer = () => {
   return (
-    <div className='IssuesContainer sm:16 md:mx-32 my-8 border border-gray-300 rounded-md'>
+    <div className='IssuesContainer sm:16 md:mx-32 my-8 border border-gray-300 rounded-md break-all'>
       <div className="issuesContainer__header bg-[#f6f8fa] px-4 py-3 flex justify-between flex-wrap gap-5 ">
         <div className="header__left flex gap-4 text-sm">
           <div className="left__text flex gap-2 items-center font-semibold">
